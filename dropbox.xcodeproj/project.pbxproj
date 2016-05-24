@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E89631541CF29EE200103AC2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89631531CF29EE200103AC2 /* SettingsViewController.swift */; };
+		E89631561CF2A29E00103AC2 /* PasswordHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89631551CF2A29E00103AC2 /* PasswordHelpViewController.swift */; };
+		E89631581CF2A9D000103AC2 /* FavoriteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89631571CF2A9D000103AC2 /* FavoriteDetailViewController.swift */; };
+		E896315A1CF2AC9D00103AC2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89631591CF2AC9D00103AC2 /* WelcomeViewController.swift */; };
+		E89CF0261CF274AA00A4C9F1 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CF0251CF274AA00A4C9F1 /* CreateAccountRootViewController.swift */; };
+		E89CF0281CF278C400A4C9F1 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CF0271CF278C400A4C9F1 /* CreateAccountViewController.swift */; };
+		E89CF02A1CF2817500A4C9F1 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CF0291CF2817500A4C9F1 /* SignInRootViewController.swift */; };
+		E89CF02C1CF281CA00A4C9F1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CF02B1CF281CA00A4C9F1 /* SignInViewController.swift */; };
+		E89CF02E1CF28B3000A4C9F1 /* TermsServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CF02D1CF28B3000A4C9F1 /* TermsServiceViewController.swift */; };
+		E89CF0301CF28CD000A4C9F1 /* AgreeCreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CF02F1CF28CD000A4C9F1 /* AgreeCreateAccountViewController.swift */; };
 		E8CE9B7C1CEE1F52007D1DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE9B7B1CEE1F52007D1DA1 /* AppDelegate.swift */; };
 		E8CE9B7E1CEE1F52007D1DA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE9B7D1CEE1F52007D1DA1 /* ViewController.swift */; };
 		E8CE9B811CEE1F52007D1DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CE9B7F1CEE1F52007D1DA1 /* Main.storyboard */; };
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E89631531CF29EE200103AC2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E89631551CF2A29E00103AC2 /* PasswordHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordHelpViewController.swift; sourceTree = "<group>"; };
+		E89631571CF2A9D000103AC2 /* FavoriteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteDetailViewController.swift; sourceTree = "<group>"; };
+		E89631591CF2AC9D00103AC2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../WelcomeViewController.swift; sourceTree = "<group>"; };
+		E89CF0251CF274AA00A4C9F1 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		E89CF0271CF278C400A4C9F1 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		E89CF0291CF2817500A4C9F1 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		E89CF02B1CF281CA00A4C9F1 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		E89CF02D1CF28B3000A4C9F1 /* TermsServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TermsServiceViewController.swift; path = ../TermsServiceViewController.swift; sourceTree = "<group>"; };
+		E89CF02F1CF28CD000A4C9F1 /* AgreeCreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgreeCreateAccountViewController.swift; path = ../AgreeCreateAccountViewController.swift; sourceTree = "<group>"; };
 		E8CE9B781CEE1F51007D1DA1 /* dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CE9B7B1CEE1F52007D1DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8CE9B7D1CEE1F52007D1DA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,8 +118,18 @@
 			isa = PBXGroup;
 			children = (
 				E8CE9B7B1CEE1F52007D1DA1 /* AppDelegate.swift */,
+				E89CF02F1CF28CD000A4C9F1 /* AgreeCreateAccountViewController.swift */,
+				E89631591CF2AC9D00103AC2 /* WelcomeViewController.swift */,
+				E89CF02D1CF28B3000A4C9F1 /* TermsServiceViewController.swift */,
 				E8CE9B7D1CEE1F52007D1DA1 /* ViewController.swift */,
 				E8CE9B7F1CEE1F52007D1DA1 /* Main.storyboard */,
+				E89631571CF2A9D000103AC2 /* FavoriteDetailViewController.swift */,
+				E89631551CF2A29E00103AC2 /* PasswordHelpViewController.swift */,
+				E89631531CF29EE200103AC2 /* SettingsViewController.swift */,
+				E89CF02B1CF281CA00A4C9F1 /* SignInViewController.swift */,
+				E89CF0291CF2817500A4C9F1 /* SignInRootViewController.swift */,
+				E89CF0271CF278C400A4C9F1 /* CreateAccountViewController.swift */,
+				E89CF0251CF274AA00A4C9F1 /* CreateAccountRootViewController.swift */,
 				E8CE9B821CEE1F52007D1DA1 /* Assets.xcassets */,
 				E8CE9B841CEE1F52007D1DA1 /* LaunchScreen.storyboard */,
 				E8CE9B871CEE1F52007D1DA1 /* Info.plist */,
@@ -256,8 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89CF02A1CF2817500A4C9F1 /* SignInRootViewController.swift in Sources */,
+				E89CF0281CF278C400A4C9F1 /* CreateAccountViewController.swift in Sources */,
+				E89CF02C1CF281CA00A4C9F1 /* SignInViewController.swift in Sources */,
+				E89CF0261CF274AA00A4C9F1 /* CreateAccountRootViewController.swift in Sources */,
 				E8CE9B7E1CEE1F52007D1DA1 /* ViewController.swift in Sources */,
+				E89CF0301CF28CD000A4C9F1 /* AgreeCreateAccountViewController.swift in Sources */,
+				E89631561CF2A29E00103AC2 /* PasswordHelpViewController.swift in Sources */,
+				E89CF02E1CF28B3000A4C9F1 /* TermsServiceViewController.swift in Sources */,
+				E89631581CF2A9D000103AC2 /* FavoriteDetailViewController.swift in Sources */,
+				E896315A1CF2AC9D00103AC2 /* WelcomeViewController.swift in Sources */,
 				E8CE9B7C1CEE1F52007D1DA1 /* AppDelegate.swift in Sources */,
+				E89631541CF29EE200103AC2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +522,7 @@
 				E8CE9BA21CEE1F52007D1DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8CE9BA31CEE1F52007D1DA1 /* Build configuration list for PBXNativeTarget "dropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +531,7 @@
 				E8CE9BA51CEE1F52007D1DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8CE9BA61CEE1F52007D1DA1 /* Build configuration list for PBXNativeTarget "dropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +540,7 @@
 				E8CE9BA81CEE1F52007D1DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
